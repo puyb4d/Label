@@ -1,0 +1,22 @@
+{
+    "name": "Label",
+    "studioName": "Label",
+    "category": "Custom Widgets",
+    "iconPath": "/icons/widget.png",
+    "version": "1.0.0",
+    "author": "Stéphane Puybareau",
+    "version": "1.0.0",
+    "copyright": "(c) 2014 Widget Developer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Puyb4d/Label.git"
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda": ">= 9"},
+    "license": "MIT",
+    "loadDependencies": [
+        {"id": "Widget_V2"},
+        {"id": "Text/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Label/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
